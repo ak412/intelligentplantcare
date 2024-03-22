@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CROP PREDICTOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body  class="form">
+    <h1 class="f">CROP PREDICTOR</h1>
+    <form action="/results" method="POST">
+        <p>Nitrogen: <input type="text" name="nitrogen" /></p>
+        <p>Phosphorus: <input type="text" name="phosphorus" /></p>
+        <p>Potassium: <input type="text" name="potash" /></p>
+        <p>Temperature: <input type="text" name="temp" /></p>
+        <p>Humidity: <input type="text" name="humid" /></p>
+        <p>pH: <input type="text" name="ph" /></p>
+        <p>Rainfall: <input type="text" name="rainfall" /></p>
+        <input class="button" type="submit" value="PREDICT">
+    </form>
+</body>
+</html>
